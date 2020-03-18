@@ -1,0 +1,81 @@
+<div>
+  <nav class="header">
+    <div class="nav-wrapper teal darken-3">
+      <button
+        data-target="slide-out"
+        class="left btn-flat transparent waves-effect waves-light sidenav-trigger"
+      >
+        <i class="material-icons white-text">menu</i>
+      </button>
+      <a href="#home/notifications" class="right">
+        <i class="material-icons white-text">notifications</i>
+      </a>
+    </div>
+  </nav>
+  <ul id="slide-out" class="sidenav">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img src="/img/p_cover.jpg" />
+        </div>
+        <span class="white-text name" id="user_name"></span>
+      </div>
+    </li>
+    <li>
+      <a href="#home/main" class="sidenav-close">
+        <i class="material-icons grey-text">home</i> Main
+      </a>
+    </li>
+    <li class="admin">
+      <a href="#home/add_user" class="sidenav-close">
+        <i class="material-icons grey-text">person_add</i> Add Member
+      </a>
+    </li>
+    <li class="admin">
+      <a href="#home/create_election" class="sidenav-close">
+        <i class="material-icons grey-text">event_note</i> Create Election
+      </a>
+    </li>
+    <li>
+      <a href="#home/ongoing_elections" class="sidenav-close">
+        <i class="material-icons grey-text">event_available</i> Ongoing Elections
+      </a>
+    </li>
+    <li class="admin">
+      <a href="#home/statistics" class="sidenav-close">
+        <i class="material-icons grey-text">pie_chart</i> Statistics
+      </a>
+    </li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li>
+      <a id="logout_link" class="sidenav-close">
+       <i class="material-icons grey-text">exit_to_app</i> Logout 
+      </a>
+    </li>
+  </ul>
+  <div id="home">
+  </div>
+  <nav class="footer">
+    <div class="nav-wrapper teal darken-3">
+      <ul class="tabs tabs-transparent row">
+        <li class="tab s4 l4 m4 xl4">
+          <a href="#home/main">
+            <i class="material-icons">home</i>
+          </a>
+        </li>
+        <li class="tab s4 l4 m4 xl4">
+          <a href="#home/account">
+            <i class="material-icons">account_circle</i>
+          </a>
+        </li>
+        <li class="tab s4 l4 m4 xl4">
+          <a href="#home/settings">
+            <i class="material-icons">settings</i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>

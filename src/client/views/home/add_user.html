@@ -1,0 +1,62 @@
+<div class="row marginalize">
+  <div class="col l4 xl4"></div>
+  <div class="col l4 xl4 s12 m12">
+    <div class="card grey lighten-5">
+      <div class="card-content orange-text text-lighten-2">
+        <span class="card-title">
+          <h6>Add Member</h6>
+        </span>
+        <div class="row">
+          <form class="col s12 l12 xl12 m12" id="add_member_form">
+            <div class="row">
+              <div class="input-field col s12 l12 xl12 m12">
+                <i class="material-icons small prefix">account_box</i>
+                <input required id="matric" type="text" class="validate" name="matric">
+                <label for="matric">Matric No.</label>
+              </div>
+              <div class="input-field col s12 l12 xl12 m12">
+                <i class="material-icons small prefix">lock</i>
+                <input required id="password" type="password" class="validate" name="password">
+                <label for="password">Password</label>
+              </div>
+              <div class="input-field col s12 l12 xl12 m12">
+                <i class="material-icons small prefix">account_circle</i>
+                <input required id="firstName" type="text" class="validate" name="firstName">
+                <label for="firstName">First Name</label>
+              </div>
+              <div class="input-field col s12 l12 xl12 m12">
+                <i class="material-icons small prefix">account_circle</i>
+                <input required id="lastName" type="text" class="validate" name="lastName">
+                <label for="lastName">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <button class="col waves-effect waves-light btn-large l12 xl12 s12 m12">
+                Add Member <i class="small material-icons">add</i>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="row">
+          <div class="col s4 m4 l4 xl4"></div>
+          <div class="col s4 m4 l4 xl4">
+            <div id="loader" class="preloader-wrapper small">
+              <div class="spinner-layer spinner-green-only">
+                <div class="circle-clipper left">
+                  <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                  <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                  <div class="circle"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col l4 xl4"></div>
+</div>

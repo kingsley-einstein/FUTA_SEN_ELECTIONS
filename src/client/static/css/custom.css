@@ -1,0 +1,71 @@
+/* Google's spec for self hosting */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url('/font/MaterialIcons-Regular.ttf');
+}
+
+/* Google's spec for self hosting */
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dcdcdc;
+  opacity: 0.7;
+}
+
+* {
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+
+.marginalize {
+  margin-top: 2.5em;
+}
+
+.ghostify {
+  background-color: #f5f5f5;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+#home {
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.admin {
+  display: none;
+}

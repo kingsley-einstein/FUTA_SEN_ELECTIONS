@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "stable"
+cache:
+  directories: node_modules
+services:
+  - postgresql
+before_script:
+  - psql -c "DROP DATABASE IF EXISTS TRAVIS;" -U postgres
+  - psql -c "CREATE DATABASE TRAVIS;" -U postgres
+install:
+  - npm install
+script:
+  - npm run test:travis
+after_success:
+  - npm run coverage
